@@ -51,7 +51,7 @@ const Navigation = () => {
             <img 
               src={`${import.meta.env.BASE_URL}logo.png`} 
               alt="Anarion" 
-              className="h-8 w-auto object-contain"
+              className="h-8 w-auto object-contain brightness-0 invert"
             />
           </a>
 
