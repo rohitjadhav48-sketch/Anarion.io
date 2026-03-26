@@ -1,0 +1,63 @@
+/* App-specific styles */
+
+/* Smooth scroll behavior for the whole page */
+html {
+  scroll-behavior: auto;
+}
+
+/* Ensure sections stack properly */
+section {
+  position: relative;
+}
+
+/* Pin spacer fix for GSAP */
+.pin-spacer {
+  pointer-events: none !important;
+}
+
+.pin-spacer > * {
+  pointer-events: auto !important;
+}
+
+/* Word animation helper */
+.word {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+/* Card hover effects */
+.product-card,
+.usecase-card,
+.metric-item {
+  will-change: transform;
+}
+
+/* Form input focus states */
+input:focus,
+textarea:focus,
+select:focus {
+  box-shadow: 0 0 0 2px rgba(45, 107, 255, 0.2);
+}
+
+/* Button transitions */
+button {
+  will-change: transform;
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 768px) {
+  .word {
+    display: inline;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
