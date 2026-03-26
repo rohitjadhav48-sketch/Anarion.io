@@ -105,7 +105,7 @@ const ManufacturingSection = () => {
       {/* Background Image */}
       <div ref={bgRef} className="absolute inset-0 w-full h-full">
         <img
-          src="./manufacturing_abstract.jpg"
+          src="/manufacturing_abstract.jpg"
           alt="Perovskite crystal structure"
           className="w-full h-full object-cover"
         />
