@@ -106,7 +106,7 @@ const ThermalSection = () => {
       {/* Background Image */}
       <div ref={bgRef} className="absolute inset-0 w-full h-full">
         <img
-          src="/stability_vial.jpg"
+          src="./stability_vial.jpg"
           alt="Laboratory vial"
           className="w-full h-full object-cover"
         />

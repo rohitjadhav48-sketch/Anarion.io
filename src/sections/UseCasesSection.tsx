@@ -13,7 +13,7 @@ const useCases = [
       'Current matching friendly',
       'Scalable to M6/G12',
     ],
-    image: '/usecase_tandem.jpg',
+    image: './usecase_tandem.jpg',
     icon: Layers,
   },
   {
@@ -23,7 +23,7 @@ const useCases = [
       'Compatible with printable CTLs',
       'Long operational lifetime.',
     ],
-    image: '/usecase_flexible.jpg',
+    image: './usecase_flexible.jpg',
     icon: Square,
   },
 ];
