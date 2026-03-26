@@ -105,7 +105,7 @@ const PhotostabilitySection = () => {
       {/* Background Image */}
       <div ref={bgRef} className="absolute inset-0 w-full h-full">
         <img
-          src="/photostability_panel.jpg"
+          src={`${import.meta.env.BASE_URL}photostability_panel.jpg`}
           alt="Flexible perovskite solar panel"
           className="w-full h-full object-cover"
         />

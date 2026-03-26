@@ -49,7 +49,7 @@ const Navigation = () => {
             }}
           >
             <img 
-              src="/logo.png" 
+              src={`${import.meta.env.BASE_URL}logo.png`} 
               alt="Anarion" 
               className="h-8 w-auto object-contain"
             />

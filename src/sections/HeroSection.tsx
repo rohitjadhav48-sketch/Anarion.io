@@ -129,7 +129,7 @@ const HeroSection = () => {
         style={{ opacity: 0 }}
       >
         <img
-          src="/hero_lab.jpg"
+          src={`${import.meta.env.BASE_URL}hero_lab.jpg`}
           alt="Cleanroom laboratory"
           className="w-full h-full object-cover"
         />
